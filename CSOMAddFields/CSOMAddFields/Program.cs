@@ -21,11 +21,10 @@ namespace CSOMAddFields
             //string webUrl = Console.ReadLine();
             string webUrl = "https://alexandriava1.sharepoint.com/sites/dev";
 
-            //Console.ForegroundColor = ConsoleColor.Green;
-            //Console.WriteLine("Enter your user name (ex: user@alexandriava.gov):");
-            //Console.ForegroundColor = defaultForeground;
-            //string userName = Console.ReadLine();
-            string userName = "lei.fu@alexandriava.gov";
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Enter your user name (ex: user@alexandriava.gov):");
+            Console.ForegroundColor = defaultForeground;
+            string userName = Console.ReadLine();
 
             Console.WriteLine("Welcome to " + webUrl);
             Console.WriteLine("Your user name is : " + userName);
